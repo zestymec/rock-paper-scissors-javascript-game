@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.heading {
+    background: #11354c;
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.imagessection {
+    width: 50%;
+    margin: 5vmax auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 100%;
+
+}
+
+#rockimage {
+    width: 12rem;
+    height: 12rem;
+   
+}
+#rockimage:hover {
+    border: rgb(34, 18, 3) solid 1rem ;
+    cursor: pointer;
+}
+#paperimage:hover {
+    border:  rgb(34, 18, 3) solid 1rem ;
+    cursor: pointer;
+}
+#scissorimage:hover {
+    border:  rgb(34, 18, 3) solid 1rem ;
+    cursor: pointer;
+}
+#paperimage {
+    width: 13rem;
+    height: 12rem;
+}
+
+#scissorimage {
+    width: 12rem;
+    height: 12rem;
+}
+
+.textsection {
+    width: 15%;
+    margin: 7vmax auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers {
+    text-align: center;
+}
+.msg{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+    background: #11354c;
+    padding: 1rem;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+footer {
+    margin-top: 5vmax;
+    position: fixed;
+    bottom: 0;
+    background-color: #073c5d;
+    color: white;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.zestymec {
+    text-align: center;
+}
