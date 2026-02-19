@@ -5,8 +5,8 @@ const choices = document.querySelectorAll('.choice');
 const msg = document.querySelector('.msg');
 const userchoice = document.querySelector('.userchoice');
 const computerchoice = document.querySelector('.computerchoice');
-const userScorepara = document.querySelector('.userscore');
-const computerScorepara = document.querySelector('.computerscore');
+const userScorepara = document.querySelector('#userscore');
+const computerScorepara = document.querySelector('#computerscore');
 
 
 const gencompChoice = (compgame) => {
@@ -27,8 +27,8 @@ const showWinner = (userwin) => {
         msg.innerText = "Congratulation! You win";
         msg.style.backgroundColor = "green";
     } else {
-        computerScore++;
-        computerScorepara.innerText = computerScore;
+        compScore++;
+        computerScorepara.innerText = compScore;
         console.log("comp win")
         msg.innerText = "Comp win";
         msg.style.backgroundColor = "red";
