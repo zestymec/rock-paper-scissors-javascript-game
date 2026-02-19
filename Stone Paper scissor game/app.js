@@ -3,13 +3,12 @@ let compScore = 0;
 
 const choices = document.querySelectorAll('.choice');
 const msg = document.querySelector('.msg');
-const userchoice = document.querySelector('.userchoice');
 const computerchoice = document.querySelector('.computerchoice');
 const userScorepara = document.querySelector('#userscore');
 const computerScorepara = document.querySelector('#computerscore');
 
 
-const gencompChoice = (compgame) => {
+const gencompChoice = () => {
     const options = ["rockimage", "paperimage", "scissorimage"]
     const randomindx = Math.floor(Math.random() * 3)
     return options[randomindx];
