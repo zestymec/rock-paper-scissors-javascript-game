@@ -14,6 +14,6 @@ Classic Rock-Paper-Scissors game built with HTML, CSS & JavaScript.
 2. Open index.html in browser
 3. Click on Rock, Paper, or Scissors image to play!
 
-Live Demo: [Add Netlify link here after hosting]
+Demo Video : (https://www.linkedin.com/feed/update/urn:li:activity:7430130217534492672/?originTrackingId=byGAeNLQz0gz8Tqsy9NRFQ%3D%3D)
 
 Feedback & suggestions welcome! 🚀
