@@ -57,7 +57,8 @@ choices.forEach((choice) => {
             }
             else {
                 userwin = compchoice === "rockimage" ? false : true;
-            }showWinner(userwin);
+            }
+            showWinner(userwin);
         }
         
     })
